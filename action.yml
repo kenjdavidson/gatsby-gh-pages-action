@@ -29,5 +29,5 @@ inputs:
     default: "."
 runs:
   using: "node12"
-  pre: "npm run build"
+  pre: "npm install && npm run build"
   main: "./dist/index.js"
